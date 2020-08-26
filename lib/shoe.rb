@@ -23,6 +23,15 @@ class Shoe
   def material
     @material
   end
+  def condition=(condition)
+    @condition = condition
+  end
+  def condition
+    @condition
+  end
+  def cobble
+    puts "the shoe has been repaired"
+  end
   
   
 end
